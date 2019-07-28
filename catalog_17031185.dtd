@@ -1,0 +1,25 @@
+<!ELEMENT Company (Company_Info,Employee)>
+<!ELEMENT Company_Info (logo, Name, Contact, Services)>
+<!ELEMENT logo EMPTY>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Contact (Street, City, Phone)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Services (Service+)>
+<!ATTLIST Service Service_ID ID #REQUIRED>
+<!ELEMENT Service (Service_Name, Service_Desc)>
+<!ELEMENT Service_Name (#PCDATA)>
+<!ELEMENT Service_Desc (#PCDATA)>
+<!ELEMENT Employee (Employee_Info+)>
+<!ATTLIST Employee_Info Emp_Info_ID ID #REQUIRED>
+<!ELEMENT Employee_Info (Emp_Name, Emp_Contact)>
+<!ELEMENT Emp_Name (First_Name, Middle_Name?, Last_Name)>
+<!ELEMENT First_Name (#PCDATA)>
+<!ELEMENT Middle_Name (#PCDATA)>
+<!ELEMENT Last_Name (#PCDATA)>
+<!ELEMENT Emp_Contact (Emp_Country, Emp_City, Emp_Street, Emp_Phone)>
+<!ELEMENT Emp_Country (#PCDATA)>
+<!ELEMENT Emp_City (#PCDATA)>
+<!ELEMENT Emp_Street (#PCDATA)>
+<!ELEMENT Emp_Phone (#PCDATA)>

@@ -1,0 +1,190 @@
+Company{
+	background-image : url(Images/0809_it-600x360.jpg);
+  	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	width: 100%;
+  	background-color: rgb(173,175,178);
+}
+
+logo{
+
+	background-image: url(Images/impk.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	display: block;
+	height: 50%;
+}
+
+Company_Info Name{
+
+	font-size: 200px;
+	color: #EF8904;
+	margin-left: 55%;
+}
+
+Company_Info Contact {
+
+	display: block;
+	color: #EF8904;
+	font-size: 40px;
+	margin-left: 60%;
+}
+
+Company_Info Contact Phone{
+
+	margin-left: 10%;
+}
+
+Company > Company_Info > Contact::after{
+
+	content: "Our Services: ";
+	margin-left: -147%;
+	display: block;
+	font-size: 50px;
+	color: black;
+	margin-top: 30%;
+	
+}
+
+Services{
+	margin-top: 3%;
+	display: flex;
+	flex-wrap: wrap; 
+	height: 370px;
+	margin-left: -2.5%;
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+
+Service{
+
+	flex: 27%;
+	max-width: 27%;
+	padding: 0 4px;
+	margin-left: 5%;
+	background-image: url(Images/tan-leather-texture-skin-wrinkle-material-fabric-background-wallpaper-5.jpg);
+	background-size: 100%;
+	border-left: 6px solid #EF8904;
+	line-height: 1.6;
+}
+
+Service Service_Name {
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #f1f1f1;
+}
+
+Service Service_Desc{
+	display: block;
+	text-align: justify;
+	color: #f1f1f1;
+}
+
+Services Service Service_Desc::after{
+	content: "Read More";
+	text-align: center;
+	margin-left: 5%;
+	padding: 1.5%;
+	color: #000000;
+}
+
+
+Company_Info::after{
+
+	content: "Customer Service: ";
+	display: block;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+Employee{
+	display: flex;
+	margin-top: 2%;
+	height: 315px;
+}
+
+Employee > Employee_Info[Emp_Info_ID="emp_1"]{
+	background-image: url(Images/happy-independence-day-india-15-august-Display-Pictures-Status-Quotes-For-Whatsapp-a-wonerfull-pictures.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+Employee > Employee_Info[Emp_Info_ID="emp_2"]{
+
+	background-image: url(Images/nepalflag.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+Employee > Employee_Info[Emp_Info_ID="emp_3"]{
+
+	background-image: url(Images/USflags.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+Employee > Employee_Info {
+	/*background-color: #f1f1f1;*/
+	max-width: 50%;
+	width: 400px;
+	margin: 40px 50px 10px 50px;
+	text-align: center;
+	line-height: 75px;
+	transition: transform 0.5s;
+}
+
+Employee > Employee_Info:hover{
+
+	transform: scale(1.5);
+}
+
+Employee > Employee_Info > Emp_Name::before{
+	content: "Name: ";
+}
+
+Employee > Employee_Info > Emp_Contact::before {
+
+	content: "Address: ";
+}
+
+Employee > Employee_Info > Emp_Contact > Emp_Phone::before{
+
+	content: "Phone: ";
+}
+
+Employee > Employee_Info > Emp_Name, Employee > Employee_Info > Emp_Contact, Employee > Employee_Info > Emp_Contact > Emp_Phone {
+
+	display: list-item;
+	list-style-position: inside;
+
+	background: rgb(0, 0, 0); /* Fallback color */
+  	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  	color: #f1f1f1;
+}
+Employee > Employee_Info > Emp_Contact > Emp_Phone {
+	background: rgba(0,0,0,0.1);
+	padding-bottom: 10px;
+}
+
+Company::after{
+
+	content: "\00a9  2019 iampk.com All Rights Reserved";
+ 	margin-top: 1%;
+	display: flex;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(68,68,68);
+	color: #f1f1f1;
+	padding: 2%;
+	justify-content: center;
+}
+
+
+

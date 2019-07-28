@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="catalog_17031185.css"?>
+<!DOCTYPE Company SYSTEM "catalog_17031185.dtd">
+<Company>
+  <Company_Info>
+    <logo/>
+    <Name>iampk</Name>
+    <Contact>
+      <Street>Putalisadak</Street>
+      <City>Kathmandu</City>
+      <Phone>+977-9818901234</Phone>
+    </Contact>
+    <Services>
+      <Service Service_ID="ser_1">
+        <Service_Name>Artificial Intelligence</Service_Name>
+        <Service_Desc>In Nepal, India and USA iampk offers Artificial Intelligence service. Using Natural Language Processing (NLP), Speech Recognition and Machine Learning feature, we develop a range of Artificial Intelligence solutions that learn and think like humans. By minimizing your labor and infrastructure cost, our Artificial Intelligence solutions helps you to accelerate your business.</Service_Desc>
+      </Service>
+      <Service Service_ID="ser_2">
+        <Service_Name>Blockchain Technology</Service_Name>
+        <Service_Desc>We reached the best position by serving and presenting our abilities for our clients. Till the growth of our clients we always support and maintain long relationship with them. For the development of your business we hire Blockchain developers to build strong and secure Blockchain development.</Service_Desc>
+      </Service>
+      <Service Service_ID="ser_3">
+        <Service_Name>Internet of Things</Service_Name>
+        <Service_Desc>To automate electrical appliances/security devices or gadgets that are found in home, office, and other commercial settings, our IoT developers are there for you. The devices will take care of everything once you have the apps in place.</Service_Desc>
+      </Service>
+    </Services>
+  </Company_Info>
+  <Employee>
+    <Employee_Info Emp_Info_ID="emp_1">
+      <Emp_Name>
+        <First_Name>Hari</First_Name>
+        <Middle_Name>Om</Middle_Name>
+        <Last_Name>Bhatia</Last_Name>
+      </Emp_Name>
+      <Emp_Contact>
+        <Emp_Country>India</Emp_Country>
+        <Emp_City>Banglore</Emp_City>
+        <Emp_Street>Brigade Road</Emp_Street>
+        <Emp_Phone>+91-8693827649</Emp_Phone>
+      </Emp_Contact>
+    </Employee_Info>
+    <Employee_Info Emp_Info_ID="emp_2">
+      <Emp_Name>
+        <First_Name>Pujan</First_Name>
+        <Last_Name>Shrestha</Last_Name>
+      </Emp_Name>
+      <Emp_Contact>
+        <Emp_Country>Nepal</Emp_Country>
+        <Emp_City>Kathmandu</Emp_City>
+        <Emp_Street>Putalisadak</Emp_Street>
+        <Emp_Phone>+977-9861208734</Emp_Phone>
+      </Emp_Contact>
+    </Employee_Info>
+    <Employee_Info Emp_Info_ID="emp_3">
+      <Emp_Name>
+        <First_Name>Robert</First_Name>
+        <Middle_Name>Downey</Middle_Name>
+        <Last_Name>Evans</Last_Name>
+      </Emp_Name>
+      <Emp_Contact>
+        <Emp_Country>USA</Emp_Country>
+        <Emp_City>New York</Emp_City>
+        <Emp_Street>Jones Street</Emp_Street>
+        <Emp_Phone>1-888-452-1505</Emp_Phone>
+      </Emp_Contact>
+    </Employee_Info>
+  </Employee>
+</Company>
